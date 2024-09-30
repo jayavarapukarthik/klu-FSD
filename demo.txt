@@ -1,0 +1,23 @@
+hello world
+Welcome to FSD 
+Initialize the git
+------------------
+PS C:\Users\User\Desktop\KLU_FSD> git init
+PS C:\Users\User\Desktop\KLU_FSD> git config --global user.name "KLU"                          
+PS C:\Users\User\Desktop\KLU_FSD> git config --global user.email  "blnphaneendra@kluniversity.in"
+
+Now committing in Local:
+------------------------
+PS C:\Users\User\Desktop\KLU_FSD> git add Users.java
+PS C:\Users\User\Desktop\KLU_FSD> git commit -m "file created"
+
+Now to cloud:
+---------------
+PS C:\Users\User\Desktop\KLU_FSD> git remote add origin "https://github.com/Phanipy/klu-jfsd.git"
+PS C:\Users\User\Desktop\KLU_FSD> git push -u origin master
+
+Now Modify in local, commit in local and push into the cloud
+-------------------------------------------------------------
+PS C:\Users\User\Desktop\KLU_FSD> git commit -m "class created"
+PS C:\Users\User\Desktop\KLU_FSD> git add .
+PS C:\Users\User\Desktop\KLU_FSD> git push -u origin master
